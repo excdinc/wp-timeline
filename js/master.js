@@ -90,7 +90,7 @@ function init() {
 		object.position.x = 0;
 		object.position.y = 0;
 		
-		createPoint('l',{x:0,y:-20,z:getZPosition(i)})
+		createPoint('m',{x:0,y:-20,z:getZPosition(i)})
 		
 
 		
@@ -109,7 +109,7 @@ function init() {
 		
 		console.log(object.position.x)
 		
-		createPoint('m',{x:0,y:-20,z:object.position.z})
+		createPoint('s',{x:0,y:-20,z:object.position.z})
 		
 		createline(
 			{x:object.position.x - 0,y:object.position.y,z:object.position.z},
@@ -125,7 +125,7 @@ function init() {
 		object.position.x = wpXLength  * Math.cos(60 * i / 180 * Math.PI) - wpXLength *2 ;
 		object.position.y = Math.random() * yRamdom - yRamdom / 2;
 		
-		createPoint('m',{x:0,y:-20,z:object.position.z})
+		createPoint('s',{x:0,y:-20,z:object.position.z})
 		
 		createline(
 			{x:object.position.x,y:object.position.y,z:object.position.z},
