@@ -146,7 +146,7 @@ function init() {
 	renderer.domElement.style.position = 'absolute';
 	container.appendChild( renderer.domElement );
 	
-	renderer2 = new THREE.WebGLRenderer({ antialias: true });
+	renderer2 = new THREE.WebGLRenderer();
 	renderer2.setClearColor( 0xFFFFFF );
 	renderer2.setPixelRatio( window.devicePixelRatio );
 	renderer2.setSize( window.innerWidth, window.innerHeight );
