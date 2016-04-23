@@ -11,51 +11,71 @@ a {
 	color: #ffffff;
 }
 
+/*Three.js
+-----------------------------------*/
+
+#stats{
+	position:absolute;
+	z-index: 1000;
+	
+}
+
+/*Element
+-----------------------------------*/
+
 .element {
 	width: 400px;
 	height: 160px;
-	/*box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
-	border: 1px solid rgba(127,255,255,0.25);*/
 	text-align: center;
 	cursor: default;
 }
 
 
-.element:hover {
-	/*box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
-	border: 1px solid rgba(127,255,255,0.75);*/
-}
-.element .number {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	font-size: 12px;
-	color: rgba(127,255,255,0.75);
-}
-.element .symbol {
-	position: absolute;
-	top: 40px;
-	left: 0px;
-	right: 0px;
-	font-size: 60px;
-	font-weight: bold;
-	color: rgba(255,255,255,0.75);
-	text-shadow: 0 0 10px rgba(0,255,255,0.95);
-}
-.element .details {
-	position: absolute;
-	bottom: 15px;
-	left: 0px;
-	right: 0px;
-	font-size: 12px;
-	color: rgba(127,255,255,0.75);
-}
 
-.element .year {
+
+.element.year {
 	font-size:36px;
 	
 }
 
+.element.wc img{
+	width: 100px;
+}
+
+.element.wck2016{
+	width: 1000px;
+	text-align: center;
+}
+
+
+
+.element.wck2016 .wapuu{
+
+	position:absolute;
+}
+
+.element.wck2016 .wapuu_hover{
+	left: 0;
+	margin-top: 30px;
+	width: 200px;
+}
+
+.element.wck2016 .wapuu_headset{
+	right: 0;
+	width: 180px;
+}
+
+.element.wck2016 .logo{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+
+}
+
+
+/*Point
+-----------------------------------*/
 .point{
 	background: #000000;
 }
