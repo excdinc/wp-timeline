@@ -136,7 +136,7 @@ function init() {
 	//WCK Kansai 2016
 	var src = '<img class="wapuu wapuu_hover" src="img/wapuu/wapuu_wck_2016_hover.png" />';
 	src += '<img class="wapuu wapuu_headset" src="img/wapuu/wapuu_wck_2016_headset.png" />';
-	src += '<span class="date">July/9,10/2016</span>';
+	src += '<span class="date">July / 9,10 / 2016</span>';
 	src += '<h1 class="logo"><img src="img/wck_2016_logo.svg"></h1>';
 	var element = createElement(src);
 	$(element).addClass('wck2016');
@@ -260,6 +260,7 @@ function onWindowResize() {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
 	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer2.setSize( window.innerWidth, window.innerHeight );
 	render();
 }
 
